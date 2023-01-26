@@ -1,0 +1,234 @@
+@import url(fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik-Regular';
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* nav start */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav_list{
+    display: flex;
+}
+
+.nav_link{
+    line-height: 19px;
+    color: #000;
+    padding: 30px 15px;
+    display: block;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: 400ms;
+}
+
+.nav_link:hover{
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.search{
+    max-width: 290px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_input{
+    border: none;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    padding-left: 12px;
+    outline: none;
+}
+
+.nav_btn{
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    background: #000;
+    border-radius: 0 10px 10px 0;
+    padding: 8px 17px;
+}
+
+
+/* nav end */
+
+/* header start */
+
+
+.header{
+    background: url(../img/header__banner.png)  no-repeat center/cover;
+    height: 100vh;
+}
+
+.header__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header__content-title{
+    color: white;
+    font-size: 59px;
+    line-height: 70px;
+    font-family: 'Rubik-Semibold';
+    padding: 20px 0 10px;
+}
+
+.header__content-text{
+    color: white;
+    line-height: 31px;
+    font-size: 26px;
+    font-family: 'Rubik-Light';
+    text-transform: uppercase;
+}
+
+
+/* header end */
+
+/* main start */
+
+/* cards start */
+
+
+.cards{
+    display: flex;
+}
+
+.cards__card{
+    background: #181D28;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+    padding: 20px 0;    
+}
+
+.cards__card:hover{
+    background: #6B4B6B;
+}
+
+.cards__card-title{
+    color: white;
+    font-size: 18px;
+    font-family: 'Rubik-Semibold';
+    padding-top: 24px;
+}
+
+
+/* cards ends */
+
+/* gear start */
+
+
+.gear{
+    padding: 40px 0;    
+}
+
+.gear__title{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Rubik-Semibold';
+    line-height: 26px;
+}
+
+.gear__text{
+    font-size: 15px;
+    line-height: 18px;
+    padding-bottom: 40px;
+}
+
+.gear__img{
+   width: 100%;
+}
+
+
+/* gear end */
+
+/* clothing start */
+
+
+.clothing__title{
+    font-size: 22px;
+    font-family: 'Rubik-Semibold';
+    text-align: center;
+    padding-bottom: 30px;
+    line-height: 26px;
+}
+
+.clothing__content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.clothing__content__item{
+    padding-bottom: 14px;
+}
+
+.clothing__content-link{
+    color: #000;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+/* clothing end  */
+
+/* footer start */
+
+
+.footer{
+    background: #181D28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+.footer__list{
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer__link{
+    color: white;
+    font-style: 20px;
+    line-height: 24px;
+}
+
+/* footer end */
